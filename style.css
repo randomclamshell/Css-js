@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font');
+
+:root {
+     --base: black;
+     --spacing: 10px;
+     --blur: 30px;
+     --font-family: 'Cute Font', cursive;
+}
+
+img {
+     padding: var(--spacing);
+     background: var(--base);
+     filter: blur(var(--blur));
+     height: 400px;
+}
+
+body {
+     text-align: center;
+     background: #193549;
+     color: var(--base);
+     font-family: var(--font-family);
+     font-weight: 100;
+     font-size: 50px;
+   }
+
+   .controls {
+     margin-bottom: 50px;
+   }
+
+   input {
+     width: 100px;
+   }
+
+   h1 {
+        color: var(--base);
+   }
