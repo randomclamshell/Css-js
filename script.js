@@ -1,6 +1,6 @@
 console.log("loaded");
 
-const inputs = document.querySelectorAll(".controls input");
+const inputs = document.querySelectorAll("#controls input");
 
 function handleUpdate() {
      console.log(this.value);
